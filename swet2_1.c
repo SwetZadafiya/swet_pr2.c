@@ -4,26 +4,24 @@
 #include<stdio.h>
 #include<conio.h>
 
-int main (){
+void main (){
 int a;
-printf("*************************************\n");
-printf(" know a number is either even or odd\n");
-printf("*************************************\n\n");
+printf("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*\n");
+printf(" TO CHECK IF THE NUMBER IS EVEN OR ODD\n");
+printf("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*\n\n");
 
-printf("******************************************************************\n");
-printf(" Enter any number(except zero because 0 is not even or odd number):  ");
+printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
+printf("                       Enter any number :  ");
 scanf("%d",&a);
-printf("******************************************************************\n\n");
+printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n\n");
 
 printf("*********************\n");
 (a/2) ? printf(" This number is Even")
       : printf(" This number is odd") ;
 printf("\n*********************\n");
 
-return 0;
 getch();    
 }
-
 /*Input:
          Enter any number: 12
 Output: 
